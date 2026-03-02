@@ -31,5 +31,5 @@
 
 **Тестирование**
 
-![[Pasted image 20260302221221.png]]
-![[Pasted image 20260302221307.png]]
+![Скриншот](https://github.com/EnotKommunist/laba2/blob/main/Скриншоты/photo_3_2026-03-02_22-31-58.jpg)
+![Скриншот](https://github.com/EnotKommunist/laba2/blob/main/Скриншоты/photo_4_2026-03-02_22-31-58.jpg)
