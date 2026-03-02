@@ -14,8 +14,8 @@
 **Тестирование**
 
 
-![Скриншот]([https://raw.githubusercontent.com/ваш_логин/название_репозитория/ветка/путь/к/файлу.png](https://github.com/EnotKommunist/laba2/blob/main/Скриншоты/photo_1_2026-03-02_22-31-58.jpg))
-![Скриншот]([https://raw.githubusercontent.com/ваш_логин/название_репозитория/ветка/путь/к/файлу.png](https://github.com/EnotKommunist/laba2/blob/main/Скриншоты/photo_2_2026-03-02_22-31-58.jpg))
+![Скриншот](https://github.com/EnotKommunist/laba2/blob/main/Скриншоты/photo_1_2026-03-02_22-31-58.jpg)
+![Скриншот](https://github.com/EnotKommunist/laba2/blob/main/Скриншоты/photo_2_2026-03-02_22-31-58.jpg)
 
 **Задание 2**
 
