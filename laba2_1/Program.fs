@@ -1,30 +1,27 @@
-﻿open System
+open System
 
-let rec MinNum num min = 
+let rec minNum (num: int) (min: int) =
     if num < 10 then
-        if num < min then
-            num
-        else
-            min
+        if num < min then num else min
     else
         if num % 10 < min then
-            MinNum (num/10) (num%10)
+            minNum (num / 10) (num % 10)
         else
-            MinNum (num/10) min
+            minNum (num / 10) min
 
-let FindMinNum numbers = 
-    [
-        for i = 0 to List.length numbers - 1 do
-            MinNum numbers.[i] 10
-    ]
+let findMinNum numbers =
+    numbers |> List.map (fun x -> minNum x 10)
 
 [<EntryPoint>]
-let main args = 
+let main argv =
     printf "Введите кол-во эл списка: "
-    let count_el = int(Console.ReadLine())
+    let countEl = int (Console.ReadLine())
+    
     printfn "Введите эл списка: "
-    let numbers = [for i in 0..count_el-1 -> int(Console.ReadLine())]
-    let list_num = FindMinNum numbers
+    let numbers = [ for i in 0 .. countEl - 1 -> int (Console.ReadLine()) ]
+    
+    let listMinDigits = findMinNum numbers
+    
     printfn "Исходные числа: %A" numbers
-    printfn "Минимальные цифры: %A" list_num
+    printfn "Минимальные цифры: %A" listMinDigits
     0
